@@ -1,0 +1,11 @@
+name: conda-env
+channels:
+    - defaults
+    - conda-forge
+dependencies:
+    - python=3.10.5
+    - jupyterlab=3.4.3
+    - jupyter_nbextensions_configurator=0.4.1
+    - nbdime=3.1.1
+    - topologytoolkit=1.0.0
+    - numpy=1.22.3
